@@ -28,7 +28,7 @@ int main()
         printf("6. Sair\n");
         printf("Escolha uma opção:");
         scanf("%d",&Tipo);
-        getchar();
+        getchar(); // Limpa o \n do buffer
         printf("\n");
         
             switch (Tipo){
@@ -81,7 +81,7 @@ int main()
     
     return 0;
 }
-
+        // 1. Cadastrar Tarefa
         void CadastrarTarefa(char tarefas[][4][50], int *quantidade){
         
             printf("Cadastro de Tarefas\n");
@@ -101,7 +101,8 @@ int main()
             
             
         }
-        
+
+        // 2. Listar Tarefas
         void ListarTarefas(char tarefas[][4][50], int QuantidadeTarefas){
             
             printf("Lista de tarefas\n\n");
@@ -116,7 +117,8 @@ int main()
                     printf("\n");
                 }
         }
-        
+
+        // 3. Editar Tarefa
         void EditarTarefa(char tarefas[][4][50], int indice){
             
             printf("Edição de Tarefas\n");
@@ -135,7 +137,8 @@ int main()
             printf("Tarefa editada com sucesso com sucesso!\n\n");
             
         }
-        
+
+        // 4. Excluir Tarefa
         void ExcluirTarefa(char tarefas[][4][50], int *quantidade, int indice) {
                 
                 if (indice<0 || indice>=*quantidade) {
@@ -154,7 +157,7 @@ int main()
                     printf("Tarefa excluída com sucesso!\n");
         }
         
-        
+       // 5. Salvar Tarefas em Arquivo
        void SalvarTarefasEmArquivo(char tarefas[][4][50], int quantidade) {
             FILE *arquivo = fopen("tarefas.txt", "w");
 
