@@ -1,20 +1,22 @@
-# Sistema de Gerenciamento de Tarefas
+# Sistema de Gerenciamento de Tarefas em C
 
-Este é um projeto simples em linguagem C que implementa um sistema de gerenciamento de tarefas no terminal.
+## Descrição
 
- -Funcionalidades
+Este programa em C implementa um sistema simples de gerenciamento de tarefas, permitindo:
 
 - Cadastrar tarefas com descrição, prioridade e status.
 - Listar todas as tarefas cadastradas.
-- Editar uma tarefa existente.
-- Excluir uma tarefa.
-- Salvar todas as tarefas em um arquivo `tarefas.txt`.
+- Editar tarefas existentes.
+- Excluir tarefas.
+- Salvar as tarefas em um arquivo chamado `tarefas.txt`.
 
-Como compilar e executar
+## Como compilar
 
-Compilação
-
-Use o compilador `gcc` (ou outro de sua preferência):
+Use o gcc para compilar o código:
 
 ```bash
-gcc main.c -o tarefas```
+gcc main.c -o gerenciador
+
+
+
+
