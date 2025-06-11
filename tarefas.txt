@@ -1,0 +1,9 @@
+Tarefa 1: Comprar leite
+ - Prioridade: alta
+ - Status: Pendente
+Tarefa 2: Ir ao Banco
+ - Prioridade: Baixa
+ - Status: Concluido
+Tarefa 3: Lavar o carro
+ - Prioridade: Alta
+ - Status: Pendente
