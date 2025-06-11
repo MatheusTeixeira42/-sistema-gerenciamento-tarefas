@@ -4,6 +4,7 @@
 #define Quantidade 100
 #define Tamanho 50
 
+    // Apresenta as funcões
     void CadastrarTarefa(char tarefas[][4][50], int *QuantidadeTarefas);
     void ListarTarefas(char tarefas[][4][50], int QuantidadeTarefas);
     void EditarTarefa(char tarefas[][4][50], int indice);
