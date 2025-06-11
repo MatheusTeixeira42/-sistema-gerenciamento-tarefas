@@ -1,3 +1,10 @@
+Abaixo segue o código da Lista de tarefas.
+
+```bash
+gcc main.c -o gerenciador
+
+
+
 #include <stdio.h>
 #include <string.h>
 
