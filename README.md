@@ -12,7 +12,7 @@ Este programa em C implementa um sistema simples de gerenciamento de tarefas, pe
 
 ## Como compilar
 
-Use o gcc para compilar o código:
+Use o gcc para compilar o código(Certifique-se de que você tem o compilador GCC instalado)
 
 ```bash
 gcc main.c -o gerenciador
