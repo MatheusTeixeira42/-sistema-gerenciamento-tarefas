@@ -82,6 +82,10 @@ int main()
     
     return 0;
 }
+
+// ================== Funções ==================
+
+
         // 1. Cadastrar Tarefa
         void CadastrarTarefa(char tarefas[][4][50], int *quantidade){
         
